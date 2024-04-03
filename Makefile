@@ -1,5 +1,5 @@
 setup:
-	python -m ensurepip --upgrade
+	python3.12 -m ensurepip --upgrade
 
 install:
 	pip install --upgrade pip &&\
