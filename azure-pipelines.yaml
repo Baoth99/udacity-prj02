@@ -19,5 +19,11 @@ stages:
           # Install python3.7-distutils
           - script: 'make setup'
             displayName: 'Setup'
-          - script: 'make install'
-            displayName: 'Install dependencies'
+          # - script: 'make install'
+          #   displayName: 'Install dependencies'
+          - task: Docker@2
+            displayName: Build an image
+            inputs:
+              repository: 'Udacity02'
+              command: build
+              Dockerfile: ./Dockerfile
