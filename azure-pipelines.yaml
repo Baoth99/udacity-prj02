@@ -16,5 +16,7 @@ stages:
             inputs:
               versionSpec: '3.x'
               addToPath: true
+          - script: 'make setup'
+            displayName: 'Setup'
           - script: 'make install'
             displayName: 'Install dependencies'
