@@ -16,6 +16,11 @@ stages:
             inputs:
               versionSpec: '3.x'
               addToPath: true
+          # Install python3.7-distutils
+          - script: |
+              sudo apt-get update
+              sudo apt-get install -y python3.7-distutils
+            displayName: 'Install python3.7-distutils'
           - script: 'make setup'
             displayName: 'Setup'
           - script: 'make install'
