@@ -1,5 +1,5 @@
 setup:
-	python3 -m venv ~/.udacity-prj2
+	python -m ensurepip --upgrade
 
 install:
 	pip install --upgrade pip &&\
