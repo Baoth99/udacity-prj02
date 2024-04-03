@@ -18,6 +18,9 @@ stages:
               addToPath: true
           # Install python3.7-distutils
           - script: |
+              sudo apt-cache search python3.12.2
+            displayName: 'Search for Python 3.7 packages'
+          - script: |
               sudo apt-get update
               sudo apt-get install -y python3.12.2-distutils
             displayName: 'Install python3.7-distutils'
