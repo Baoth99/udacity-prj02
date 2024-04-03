@@ -5,7 +5,7 @@ WORKDIR /app
 
 # Copy source code to working directory
 COPY . app.py /app/
-
+COPY . Housing_price_model/* /app/Housing_price_model/
 # Install packages from requirements.txt
 # hadolint ignore=DL3013
 RUN pip install --upgrade pip &&\
