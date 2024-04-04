@@ -28,5 +28,7 @@ stages:
               repository: 'baoth799/udacity-prj02'
               command: 'buildAndPush'
               Dockerfile: '**/Dockerfile'
-              tags: '$(Build.BuildId)'
+              tags: |
+                latest
+                $(Build.BuildId)
               arguments: '-t baoth799/udacity-prj02:$(Build.BuildId)'
