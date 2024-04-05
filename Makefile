@@ -1,8 +1,8 @@
 setup:
-	python3.12 -m ensurepip --upgrade
+	python -m ensurepip --upgrade
 
 install:
-	python3.12 -m install --upgrade pip &&\
+	python -m install --upgrade pip &&\
 		pip install -r requirements.txt
 
 test:
