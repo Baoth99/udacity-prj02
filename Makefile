@@ -2,7 +2,7 @@ setup:
 	python -m ensurepip --upgrade
 
 install:
-	python -m install --upgrade pip &&\
+	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
 test:
