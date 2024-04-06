@@ -19,8 +19,8 @@ Building a CI/CD Pipeline with Azure DevOps Pipelines
 * Project cloned into Azure Cloud Shell
 ![alt text](images/project_clone_az_csh.png)
 
-* Passing tests that are displayed after running the `make all` command from the `Makefile`
 
+![alt text](images/github-action.png) 
 
 * Output of a test run
 
