@@ -57,6 +57,8 @@ Run the app on AKS instend of App Service
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+YouTube: https://www.youtube.com/watch?v=9qc7_Ed1bZE
+
+App  URL: https://udacity-pj2.azurewebsites.net/
 
 
