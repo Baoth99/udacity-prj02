@@ -1,6 +1,6 @@
 # Overview
 
-<TODO: complete this with an overview of your project>
+Building a CI/CD Pipeline with Azure DevOps Pipelines
 
 ## Project Plan
 <TODO: Project Plan
@@ -9,11 +9,9 @@
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
-
+![alt text](images/Architecture.png)
 <TODO:  
 * Architectural Diagram (Shows how key parts of the system work)>
-
-<TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
 * Project running on Azure App Service
 ![alt text](images/image.png) ![alt text](images/imageAppUrl.png)
@@ -27,19 +25,25 @@
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  
-![alt text](images/azureDevOpsPipelines.png) ![alt text](images/azureDevOpsRelease.png)
+![alt text](images/azureDevOpsPipelines.png) 
+![alt text](images/Yamlfile.png) 
+![alt text](images/docker.png)
+![alt text](images/azureDevOpsRelease.png)
+
+![alt text](images/resource.png)
+
+![alt text](images/BuildLog.png)
+![alt text](images/Logs.png)
+![alt text](images/deploymentcenter.png)
+
+
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 ![alt text](images/azureDevOpsPipeline-prj2.png) ![alt text](images/pipelinefile.png)
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
 The output should look similar to this:
-
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
+![alt text](images/Result.png)
 
 * Output of streamed log files from deployed application
 
@@ -47,7 +51,9 @@ Port: 443
 
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Adding more test cases.
+Creating a UI for making predictions.
+Run the app on AKS instend of App Service
 
 ## Demo 
 
