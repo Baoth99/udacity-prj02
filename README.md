@@ -37,6 +37,10 @@ Building a CI/CD Pipeline with Azure DevOps Pipelines
 ![alt text](images/deploymentcenter.png)
 
 
+Use GitHub action to test and lint project 
+![alt text](images/github-action-build.png)
+
+
 Clone and build an application inside of Azure Cloud Shell
 ![alt text](images/project_clone_az_csh.png)
 ![alt text](images/Azure-Cloud-shell-Build.png)

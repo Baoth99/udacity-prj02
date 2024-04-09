@@ -16,6 +16,6 @@ jobs:
         make install
     - name: Test with pytest
       run: |
-        echo "Test"
+        make test
     - name: Lint with pylint
-      run: echo "Lint"
+      run:  make lint
