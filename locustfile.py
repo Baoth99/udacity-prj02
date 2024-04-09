@@ -18,7 +18,7 @@ class WebsiteTestUser(HttpUser):
 
     @task(2)
     def predict(self):
-        self.client.post("/predict",{
+        self.client.post("https://udacity-pj2.azurewebsites.net/predict",{
        "CHAS":{
           "0":0
        },

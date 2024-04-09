@@ -5,8 +5,8 @@ Building a CI/CD Pipeline with Azure DevOps Pipelines
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+[](https://trello.com/b/Ml1EjQ0K/udacityprj02)
+[* A link to a spreadsheet that includes the original and final project plan>](https://docs.google.com/spreadsheets/d/e/2PACX-1vTG_T01eJ1RdxyhkhZ3O4B6UF5IwXHkApSERZkcUJBJ7rWSUTer0YjSEfdL9Fv4PNmFqsmx78V7CsMq/pubhtml?gid=1568358182&single=true)
 
 ## Instructions
 ![alt text](images/Architecture.png)
@@ -37,6 +37,13 @@ Building a CI/CD Pipeline with Azure DevOps Pipelines
 ![alt text](images/deploymentcenter.png)
 
 
+Clone and build an application inside of Azure Cloud Shell
+![alt text](images/project_clone_az_csh.png)
+![alt text](images/Azure-Cloud-shell-Build.png)
+
+Locust test
+![alt text](images/locus-cmd.png)
+![alt text](images/locust.png)
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 ![alt text](images/azureDevOpsPipeline-prj2.png) ![alt text](images/pipelinefile.png)
