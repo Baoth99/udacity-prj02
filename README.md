@@ -2,6 +2,11 @@
 
 Building a CI/CD Pipeline with Azure DevOps Pipelines
 
+## Badges
+
+![Python application test with Github Actions](https://img.icons8.com/ios-glyphs/30/github.png)
+
+
 ## Project Plan
 <TODO: Project Plan
 
