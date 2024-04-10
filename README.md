@@ -4,7 +4,7 @@ Building a CI/CD Pipeline with Azure DevOps Pipelines
 
 ## Badges
 
-![Python application test with Github Actions](https://github.com/jfcb853/Udacity-DevOps-Azure-Project-2/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
+[![Actions Status](https://github.com/Baoth99/udacity-prj02/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/Baoth99/udacity-prj02/actions)
 
 <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/github.png" alt="github"/>
 
